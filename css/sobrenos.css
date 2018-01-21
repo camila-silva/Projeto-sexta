@@ -1,0 +1,42 @@
+img{
+  width: 1350px;
+  height: 500px;
+  margin-left: -10px;
+  z-index: -1;
+}
+
+.frasefeito{
+  background-color: #990000;
+  color: white;
+  width: 30%;
+  border: 1px;
+  overflow: hidden;
+  margin: -10px;
+}
+
+h1{
+  padding: 20%;
+  font-size: 3em;
+  font-family: "Monotype Corsiva", sans-serif;
+}
+
+h2{
+  color: #990000;
+  font-size: 1.2em;
+  font-family: "Monotype Corsiva", sans-serif;
+}
+
+p{
+  font-size: 0.8em;
+  font-family: "Monotype Corsiva", sans-serif;
+}
+
+.texto{
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top: -500px;
+  width: 50%;
+  padding: 20px;
+  font-size: 2em;
+  font-family: "Monotype Corsiva", sans-serif;
+}

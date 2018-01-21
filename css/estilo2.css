@@ -1,0 +1,223 @@
+body {
+  background-image: url("../img/fundo3.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  padding: 0;
+  position: right;
+  right: 0;
+  top: 0;
+  text-align: center;
+  background-size: cover;
+  marquee direction: "down";
+}
+
+/* div com todas as imagens*/
+.flex-container1  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card  {
+    margin: 30px;
+    width: 250px;
+    height: 200px;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+	position: relative;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 0 50%;
+}
+
+.card > img {
+   width: 100%;
+	border-radius: 0 50%;;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.card:hover > img {
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+/* cartão com texto */
+.container h4 {
+    padding: 2px 0px;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+/* BARRA DE NAVEGAÇÃO*/
+ul.topnav {
+    opacity: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(168, 45, 37);
+    font-weight: bold;
+  }
+
+/*gruda os botões na esquerda*/
+ul.topnav li {
+    float: left;
+}
+
+#logo-do-site {
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    margin-top: 6px;
+    height: 30px;
+}
+
+/*remove a mudança de cor ao passar o mouse por cima*/
+#logo-do-site:hover{
+    background-color: inherit;
+    width: 140px;
+}
+
+/*remove a mudança de cor ao passar o mouse por cima*/
+#barra-de-busca:hover{
+    background-color: inherit;
+}
+
+#campo-de-texto-da-barra-de-busca{
+    border-radius: 25px;
+    height: 1.9em;
+    margin-top: -5px;
+}
+
+.topnav{
+  position:fixed;
+  z-index: +1;
+  width: 98%;
+}
+/*botao dos itens da lista*/
+ul.topnav li a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+/*ficar cinza quando passa o mouse por cima*/
+ul.topnav li a:hover {
+    background-color: #990000;
+    color: white;
+}
+
+/*alinha dentro da lista*/
+ul.topnav li.right {
+    float: right;
+}
+
+.texto {
+  color: rgb(168, 45, 37);
+}
+
+.escondido{
+  display: none;
+}
+
+.visivel{
+  display: inline;
+}
+
+.esquerda {
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   color: red;
+}
+.fa:hover {
+   opacity: 0.7;
+}
+.fa-facebook {
+   background: #3B5998 ;
+   color: white;
+
+}
+.fa-twitter {
+   background: #55ACEE ;
+   color: white;
+ }
+.fa-instagram {
+   background: #4B0082 ;
+   color: white;
+ }
+.fa-snapchat-ghost {
+   background: #FFD700 ;
+   color: white;
+ }
+ .fa-google {
+   background: #800000 ;
+   color: white;
+ }
+
+ .alguma {
+ display: inline-block;
+ width: 100%;
+ margin: auto;
+ margin-top: 50px;
+}
+
+ul p {
+  font-size: 1.5em;
+  color: white;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+
+/*responsividade de exemplo do w3shcools*/
+@media screen and (max-width: 986px){
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+    .topnav{
+      position:static;
+    }
+}

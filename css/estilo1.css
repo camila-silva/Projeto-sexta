@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* background-image: url("../img/bkg.jpg"); */
+  background-repeat: no-repeat;
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  opacity: ;
+  padding: 0;
+  position: right;
+  right: 0;
+  top: 0;
+  text-align: center;
+  background-size: cover;
+  marquee direction: "down";
+}
+
+#bg-1 {
+  position: absolute;
+  width: 100%;
+  left: 0em;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #fcfbf9;
+    color: black;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#barra-de-busca{
+    height: 50px;
+    border-radius: 25px;
+    display: inline;
+    margin: 10px;
+}
+
+/*formata o texto do formulario de entrada*/
+input[type="text"]
+{
+    font-size:24px;
+}
+
+.botao {
+    display: inline;
+    margin: 6px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.botao:hover{
+    background-color: rgb(200, 50, 50);
+    color: grey;
+}
+
+/* Style the content */
+.content {
+    /*background-color: #ddd;*/
+    padding: 10px;
+    text-align: center;
+    height: 450px;
+    vertical-align: middle;
+    padding-top: 6%;
+}
